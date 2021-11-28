@@ -1,0 +1,450 @@
+/*
+ *  armored Theme
+ *  By Amine B.
+ *
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+
+
+body{
+    background-color: #8f2a38;
+    font-family: 'Exo' !important;
+    color: #ffffff;
+}
+
+.header{
+    background: #8f2a38;
+}3ca294
+
+.navbar{
+    margin-top: 15px;
+}
+
+.navbar-dark .navbar-toggler{
+    border-color: transparent;
+}
+.navbar-toggler:focus{
+    box-shadow: transparent !important;
+}
+
+.header-container{
+    margin-top: 50px;
+}
+
+.header-container .title{
+    font-size: 52pt;
+    font-weight: 700;
+    z-index: 99999;
+}
+
+.title{
+    font-size: 30pt;
+    font-weight: 600;
+}
+
+.header-container p{
+    font-size: 12pt;
+}
+
+.header-container img{
+    transform: translateY(-20px);
+    z-index: -1212;
+}
+
+.armored{
+    color: #b7bec9;
+}
+
+@media only screen and (max-width : 970px){
+    .header-icon{
+        display: none;
+    }
+}
+
+@media only screen and (max-width : 1400px){
+    .header-container .title{
+        font-size: 30pt;
+    }
+    .features .title{
+        font-size: 30pt !important;
+    }
+    .title{
+        font-size: 30pt !important;
+    }
+}
+
+.btn-armored, .plans .card .card-body .btn{
+    border-radius: 40px;
+    background: #ec5014;
+    border: 2px solid #ec5014;
+    color: #fff;
+    transition: .5s ease-in-out;
+    font-weight: 600;
+}
+
+.btn-armored:hover, .plans .card .card-body .btn:hover {
+    border-radius: 40px;
+    color: #fff;
+    background: #fd0808;
+}
+
+.features .title{
+    font-size: 30pt;
+    font-weight: 600;
+}
+
+.features-row{
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.features-icons{
+    margin-bottom: 50px;
+}
+
+.armored-hr{
+    border: 3px solid #fafafa;
+    background: #fafafa;
+    opacity: 80%;
+    border-radius: 3px;
+    width: 90px;
+    padding: 0!important;
+    margin: 0!important;
+}
+
+.footer{
+    background: #1e212c;
+    margin-top: -2px;
+}
+
+.footer h2{
+    font-weight: 700;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li a {
+    display: inline-block;
+    text-transform: capitalize;
+    overflow: hidden;
+    color: #9fa2a5;
+    position: relative;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all .3s linear 0s;
+}
+
+.footer ul li a:before {
+    content: "\f105";
+    font-family: "font awesome 5 pro";
+    vertical-align: middle;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 20px;
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+    -webkit-transform-origin: left center;
+    transform-origin: left center;
+    -webkit-transition: all .4s linear 0s;
+    transition: all .4s linear 0s
+}
+
+.footer ul li a:hover {
+    text-indent: 20px;
+    color: #fff
+}
+
+.footer ul li a:hover:before {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+    text-indent: 0
+}
+
+.footer ul li a:hover {
+    color: #d2d9e0
+}
+
+.cta{
+    padding: 40px;
+    background-image : linear-gradient(315deg, #2C3E50 0%, #000000 74%);
+    border-radius: 20px;
+}
+
+.cta .btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 12px;
+    padding-left: 12px;
+    font-weight: 700;
+}
+
+.card{
+    background: #a23c45;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.card ul{
+    list-style: none;
+    margin-left: -16px;
+}
+
+.offres .row{
+    margin-bottom: 80px;
+    margin-top: 35px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 500
+}
+
+.card-price {
+    font-weight: 700
+}
+
+.dropdown-item.active, .dropdown-item:active{
+    background-color: #462f9c !important;
+}
+
+.my-dropdown-toggle::after {
+    content: none;
+}
+
+.virtualizor{
+    margin-top: 20px;
+}
+
+.virtualizor img{
+    border-radius: 10px;
+}
+
+.gamepanel{
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.gamepanel img{
+    border-radius: 10px;
+}
+
+.dropdown-menu{
+    border-radius: 10px;
+    border: none;
+}
+
+.promotion{
+    border-radius: 0;
+    background-color: rgb(236, 65, 65);
+    color: #fafafa;
+    border: none;
+    font-size: 16px;
+}
+
+.features-game {
+    background: #291c5c;
+}
+
+.features-game .card {
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.features-game .card .card {
+    text-align: center;
+    border: 1px solid rgba(88, 92, 95, 0.06);
+    background: rgba(53, 51, 51, 0.527);
+    box-shadow: 0 30px 30px rgb(73 80 87 / 8%);
+    transition: all .6s ease;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.fa-stack {
+    display: inline-block;
+    height: 2em;
+    line-height: 2em;
+    position: relative;
+    vertical-align: middle;
+    width: 2.5em;
+}
+
+.features-game .card {
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.features-game .includes-icon {
+    display: block;
+    margin: 0 auto;
+}
+
+.features-game .includes-icon .fa-circle {
+    color: #462f9c;
+}
+.features-game .includes-icon .main-icon {
+    color: #fff;
+}
+
+.features-game .card, .features-game .card {
+    text-align: center;
+    border: 1px solid rgba(88, 92, 95, 0.06);
+    box-shadow: 0 30px 30px rgb(73 80 87 / 8%);
+    transition: all .6s ease;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.virtualizor{
+    background: #291c5c;
+}
+
+.card.cara i {
+    font-size: 3em;
+    position: flex;
+    top: .5em;
+    left: .5em;
+    color: #ffffff;
+    margin-top: 16px;
+
+}
+
+.chiffre{
+    background: #291C5C;
+    margin-bottom: 40px;
+    padding-bottom: 35px;
+    padding-top: 35px;
+}
+
+.social .fa-instagram {
+    color: #c13584!important;
+    font-size: 4em;
+    margin: 10px;
+}
+
+.social .fa-twitter {
+    color: #1da1f2!important;
+    font-size: 4em;
+    margin: 10px;
+}
+
+.social .fa-discord {
+    font-size: 4em;
+    margin: 10px;
+}
+
+.social{
+    padding-bottom: 50px;
+}
+
+.social .col-sm-3 {
+    text-align: center;
+}
+
+@media all and (min-width: 992px) {
+	.navbar .dropdown-menu-end{ right:0; left: auto;  }
+	.navbar .nav-item .dropdown-menu{  display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;  }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .dropdown-menu.fade-down{ top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; }
+	.navbar .dropdown-menu.fade-up{ top:180%;  }
+	.navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
+}
+
+.plans {
+    /*background: #291C5C;*/
+}
+
+section#included-vps .card,
+.plans .card {
+    text-align: center;
+    box-shadow: 0 30px 30px rgba(73, 80, 87, .08);
+    transition: all .6s ease;
+    border-radius: 10px;
+    margin-bottom: 100px
+}
+
+@media (max-width:768px) {
+    section#included-vps .card,
+    .plans .card {
+        box-shadow: 0 20px 20px rgba(73, 80, 87, .06)
+    }
+}
+
+section#included-vps .card:focus,
+section#included-vps .card:hover,
+.plans .card:focus,
+.plans .card:hover {
+    transform: translateY(-12px)
+}
+
+.plans .card .card-img {
+    width: 140px;
+    margin-top: -60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 30px
+}
+
+.plans .card .card-body h2 {
+    font-weight: 700;
+    font-size: 24px
+}
+
+.plans .card .card-body p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 300;
+    font-size: 13px
+}
+
+.pay .card .card-body {
+    text-align: center;
+    font-size: 4em;
+}
+
+.avis {
+    background: #a23c45;
+}
+
+.accordion-button{
+    background-color: #3ca294;
+    color : #fafafa;
+    border : none !important;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: #3ca294;
+    color : #fafafa;
+    border : none !important;
+}
+
+.accordion-body{
+    background-color: #3ca294;
+    border : none !important;
+}
+
+.accordion-item{
+    border: none;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.accordion-button::after{
+    color: #fafafa !important;
+}
+
+.accordion-button{
+    color: #fcfcfc !important;
+}
